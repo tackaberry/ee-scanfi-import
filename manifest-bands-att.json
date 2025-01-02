@@ -1,0 +1,70 @@
+{
+    "name": "projects/project-name/assets/SCANFI_att_image",
+    "tilesets": [
+        {
+            "id": "biomass",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_att_biomass_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "closure",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_att_closure_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "height",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_att_height_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nfiLandCover",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_att_nfiLandCover_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        }
+    ],
+    "bands": [
+        {
+            "id": "biomass",
+            "tilesetBandIndex": 0,
+            "tilesetId": "biomass"
+        },
+        {
+            "id": "closure",
+            "tilesetBandIndex": 0,
+            "tilesetId": "closure"
+        },
+        {
+            "id": "height",
+            "tilesetBandIndex": 0,
+            "tilesetId": "height"
+        },
+        {
+            "id": "nfiLandCover",
+            "tilesetBandIndex": 0,
+            "tilesetId": "nfiLandCover"
+        }
+    ],
+    "pyramidingPolicy": "MEAN",
+    "startTime": "2023-01-31T00:00:00Z",
+    "endTime": "2023-02-01T00:00:00Z"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "projects/project-name/assets/SCANFI_collection/att_biomass",
+    "tilesets": [
+        {
+            "id": "biomass",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_att_biomass_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        }
+    ],
+    "pyramidingPolicy": "MEAN",
+    "startTime": "2023-01-31T00:00:00Z",
+    "endTime": "2023-02-01T00:00:00Z"
+}

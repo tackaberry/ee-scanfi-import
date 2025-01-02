@@ -1,0 +1,160 @@
+{
+    "name": "projects/project-name/assets/SCANFI_sps_image",
+    "tilesets": [
+        {
+            "id": "balsamFir",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_balsamFir_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "blackSpruce",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_blackSpruce_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "douglasFir",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_douglasFir_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "jackPine",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_jackPine_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "lodgepolePine",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_lodgepolePine_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ponderosaPine",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_ponderosaPine_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "prcB",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_prcB_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "prcC",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_prcC_other_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tamarack",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_tamarack_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "whiteRedPine",
+            "sources": [
+                {
+                    "uris": [
+                        "gs://bucket-name/SCANFI_sps_whiteRedPine_SW_2020_v1.2.tif"
+                    ]
+                }
+            ]
+        }
+    ],
+    "bands": [
+        {
+            "id": "balsamFir",
+            "tilesetBandIndex": 0,
+            "tilesetId": "balsamFir"
+        },
+        {
+            "id": "blackSpruce",
+            "tilesetBandIndex": 0,
+            "tilesetId": "blackSpruce"
+        },
+        {
+            "id": "douglasFir",
+            "tilesetBandIndex": 0,
+            "tilesetId": "douglasFir"
+        },
+        {
+            "id": "jackPine",
+            "tilesetBandIndex": 0,
+            "tilesetId": "jackPine"
+        },
+        {
+            "id": "lodgepolePine",
+            "tilesetBandIndex": 0,
+            "tilesetId": "lodgepolePine"
+        },
+        {
+            "id": "ponderosaPine",
+            "tilesetBandIndex": 0,
+            "tilesetId": "ponderosaPine"
+        },
+        {
+            "id": "prcB",
+            "tilesetBandIndex": 0,
+            "tilesetId": "prcB"
+        },
+        {
+            "id": "prcC",
+            "tilesetBandIndex": 0,
+            "tilesetId": "prcC"
+        },
+        {
+            "id": "tamarack",
+            "tilesetBandIndex": 0,
+            "tilesetId": "tamarack"
+        },
+        {
+            "id": "whiteRedPine",
+            "tilesetBandIndex": 0,
+            "tilesetId": "whiteRedPine"
+        }
+    ],
+    "pyramidingPolicy": "MEAN",
+    "startTime": "2023-01-31T00:00:00Z",
+    "endTime": "2023-02-01T00:00:00Z"
+}
